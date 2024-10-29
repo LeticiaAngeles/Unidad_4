@@ -1,0 +1,25 @@
+button: 
+<div class="d-flex">
+                <button id="logout" class="btn btn-outline-success" aria-label="Cerrar sesión">Salir</button>
+            </div> 
+
+
+
+<div class="dropdown">
+                <!-- Image account -->
+                <img src="Recursos/usuario.png" class="userAvatar img-fluid" data-bs-toggle="dropdown" aria-expanded="false">
+    
+                <!-- Dropdown menu -->
+                <div class="dropdown-menu dropdown-menu-end">
+                    <div class="dropdown-header">
+                        <img src="Recursos/usuario.png" class="float-right">
+                        <span class="userName"></span>
+                    </div>
+                    <!-- Dropdown options -->
+                    <a class="dropdown-item" href="#">
+                        <span>my profile</span>
+                        <i class="bi bi-person-fill float-right"></i>
+                    </a>
+                    <a class="dropdown-item" href="#" id="logout" aria-label="Cerrar sesión">salir</a>
+                </div>
+            </div>
