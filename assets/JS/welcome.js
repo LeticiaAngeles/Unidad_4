@@ -141,4 +141,3 @@ btnCancel.addEventListener('click', function () {
     taskForm['btn-task-save'].innerText = 'Save';
     btnCancel.style.display = 'none';
 });
-
